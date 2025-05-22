@@ -45,6 +45,17 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
     require('lazy').setup({
       'NMAC427/guess-indent.nvim',
       {
+        'stevearc/oil.nvim',
+        ---@module 'oil'
+        ---@type oil.SetupOpts
+      opts = {},
+        -- Optional dependencies
+      dependencies = { { "echasnovski/mini.icons", opts = {} } },
+        -- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if you prefer nvim-web-devicons
+        -- Lazy loading is not recommended because it is very tricky to make it work correctly in all situations.
+        lazy = false,
+      },
+      {
         'nvim-telescope/telescope.nvim',
         event = 'VimEnter',
         dependencies = {
