@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Consider the following overrides to emphasise left-hand usage on colemak: `arstdhneiofuc,3pv `
+    - Entire Home-row
+    - easy-to-reach keys on the middle finger
+    - bottom row on left hand only
+    - Add comma (experimental)
+    -->
     <title>Vimium Options</title>
     <meta name="color-scheme" content="light dark">
     <link rel="stylesheet" type="text/css" href="options.css">
