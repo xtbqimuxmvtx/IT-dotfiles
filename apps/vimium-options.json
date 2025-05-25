@@ -1,6 +1,6 @@
 1   {
   1   "keyMappings": "# Insert your preferred key mappings here.\nmap k scrollDown\nmap j scrollUp",
-  2   "linkHintCharacters": "tarsdpvfcneiou3,mh #`arstdhneiofucm,3pv` (Re-ordered; `tarsdpvfcneiou3,mh` )",
+  2   "linkHintCharacters": "tarsdpvfcneiou3,mh",
   3   "newTabUrl": "pages/blank.html",
   4   "grabBackFocus": true,
   5   "settingsVersion": "2.2.1",
