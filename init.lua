@@ -287,6 +287,14 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
       --  Check out: https://github.com/echasnovski/mini.nvim
     end,
   },
+  {
+  'vimwiki/vimwiki',
+  init = function()
+    vim.g.vimwiki_path = '~/vimwiki/'
+    vim.g.vimwiki_syntax = 'markdown'
+    vim.g.vimwiki_ext = 'md'
+  end,
+  },
   { -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
@@ -311,7 +319,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
     --    - Incremental selection: Included, see `:help nvim-treesitter-incremental-selection-mod`
     --    - Show your current context: https://github.com/nvim-treesitter/nvim-treesitter-context
     --    - Treesitter + textobjects: https://github.com/nvim-treesitter/nvim-treesitter-textobjects
-  },
+    },
     require 'kickstart.plugins.autopairs',
   -- require 'kickstart.plugins.debug',
   -- require 'kickstart.plugins.indent_line',
