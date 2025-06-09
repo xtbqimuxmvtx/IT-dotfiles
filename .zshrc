@@ -4,7 +4,24 @@ export ZSH_MYCONF=$HOME/.config/zsh/.zshrc
 ## Aliases
 alias vim=nvim 
 alias vic=vi 
-alias vi=vim
+alias vi=\vim
+alias v=nvim
+alias p='sudo pacman'
+alias Ss='sudo systemctl'
+alias ss='sudo systemctl'
+alias light='brightnessctl -m s'
+alias bright='brightnessctl -q s 100%'
+alias cpugperf='sudo cpupower frequency-set -g performance'
+alias cpuperf='cpugperf'
+alias cpugpower='sudo cpupower frequency-set -g powersave'
+alias cpubalanced='cpugpower'
+alias cpuPower='cpugpower'
+alias cpupowersave='cpugpower'
+alias cpuGet='cat /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor'
+alias cpupower-get='cat /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor'
+alias energyperf='sudo cpupower set -e performance'
+alias energypowersave='sudo cpupower set -e power'
+alias energypower='energypowersave'
 #####################################
 ## Configuration
 # History in cache directory:
@@ -30,8 +47,8 @@ bindkey -v
 export KEYTIMEOUT=2
 # Colemak.
   bindkey -M vicmd "h" backward-char
-  bindkey -M vicmd "k" down-line-or-history
-  bindkey -M vicmd "j" up-line-or-history
+  bindkey -M vicmd "K" down-line-or-history
+  bindkey -M vicmd "J" up-line-or-history
   bindkey -M vicmd "l" forward-char
   bindkey -M vicmd "i" vi-insert
   bindkey -M vicmd "I" vi-insert-bol
@@ -60,6 +77,87 @@ bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'k' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 ###
+#####################################
+## Attempt unbind all arrow keys:
+#####################################
+bindkey -M main "^[OA" vi-forward-char
+bindkey -M main "^[OB" vi-forward-char
+bindkey -M main "^[OC" vi-forward-char
+bindkey -M main "^[OD" vi-forward-char
+bindkey -M main '^[[D' vi-forward-char
+bindkey -M main '^[[A' vi-forward-char
+bindkey -M main '^[[B' vi-forward-char
+bindkey -M main '^[[C' vi-forward-char
+bindkey -M vicmd '^[[D' vi-forward-char
+bindkey -M vicmd '^[[A' vi-forward-char
+bindkey -M vicmd '^[[B' vi-forward-char
+bindkey -M vicmd '^[[C' vi-forward-char
+bindkey -M viopp '^[[C' vi-forward-char
+bindkey -M viopp '^[[A' vi-forward-char
+bindkey -M viopp '^[[B' vi-forward-char
+bindkey -M viopp '^[[D' vi-forward-char
+bindkey -M isearch '^[[D' vi-forward-char
+bindkey -M isearch '^[[A' vi-forward-char
+bindkey -M isearch '^[[C' vi-forward-char
+bindkey -M isearch '^[[B' vi-forward-char
+bindkey -M visual '^[[A' vi-forward-char
+bindkey -M visual '^[[C' vi-forward-char
+bindkey -M visual '^[[D' vi-forward-char
+bindkey -M viins "^[OA" vi-forward-char
+bindkey -M viins "^[OB" vi-forward-char
+bindkey -M viins "^[OC" vi-forward-char
+bindkey -M viins "^[OD" vi-forward-char
+bindkey -M viins '^[[A' vi-forward-char
+bindkey -M viins '^[[B' vi-forward-char
+bindkey -M viins '^[[C' vi-forward-char
+bindkey -M viins '^[[D' vi-forward-char
+# bindkey '^[[D' vi-forward-char
+# bindkey '^[[A' vi-forward-char
+# bindkey '^[[B' vi-forward-char
+# bindkey '^[[C' vi-forward-char
+# bindkey "^[[1;5C" vi-forward-char
+# bindkey "^[[1;5D" vi-forward-char
+# bindkey -M main "^[OA" vi-forward-char
+bindkey -M menuselect "^[OA" vi-forward-char
+bindkey -M menuselect "^[OB" vi-forward-char
+bindkey -M menuselect "^[OC" vi-forward-char
+bindkey -M menuselect "^[OD" vi-forward-char
+bindkey -M menuselect '^[[D' vi-forward-char
+bindkey -M menuselect '^[[A' vi-forward-char
+bindkey -M menuselect '^[[B' vi-forward-char
+bindkey -M menuselect '^[[C' vi-forward-char
+bindkey -M command "^[OA" vi-forward-char
+bindkey -M command "^[OB" vi-forward-char
+bindkey -M command "^[OC" vi-forward-char
+bindkey -M command "^[OD" vi-forward-char
+bindkey -M command '^[[D' vi-forward-char
+bindkey -M command '^[[A' vi-forward-char
+bindkey -M command '^[[B' vi-forward-char
+bindkey -M command '^[[C' vi-forward-char
+bindkey -M emacs "^[OA" vi-forward-char
+bindkey -M emacs "^[OB" vi-forward-char
+bindkey -M emacs "^[OC" vi-forward-char
+bindkey -M emacs "^[OD" vi-forward-char
+bindkey -M emacs '^[[D' vi-forward-char
+bindkey -M emacs '^[[A' vi-forward-char
+bindkey -M emacs '^[[B' vi-forward-char
+bindkey -M emacs '^[[C' vi-forward-char
+# bindkey -r vicmd '^[[D'
+# bindkey -r vicmd '^[[A'
+# bindkey -r vicmd '^[[B'
+# bindkey -r vicmd '^[[C'
+# bindkey -r viopp '^[[C'
+# bindkey -r viopp '^[[A'
+# bindkey -r viopp '^[[B'
+# bindkey -r viopp '^[[D'
+# bindkey -r isearch '^[[D'
+# bindkey -r isearch '^[[A'
+# bindkey -r isearch '^[[C'
+# bindkey -r isearch '^[[B'
+# bindkey -r visual '^[[B' 
+# bindkey -r visual '^[[A'
+# bindkey -r visual '^[[C'
+# bindkey -r visual '^[[D'
 #####################################
 # Cursor context for Normal and Insert modes
 # from Luke Smith:
