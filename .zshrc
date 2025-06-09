@@ -54,8 +54,6 @@ export KEYTIMEOUT=2
   bindkey -M vicmd "I" vi-insert-bol
 #  bindkey -M vicmd "k" vi-repeat-search
   bindkey -M vicmd "K" vi-rev-repeat-search
-# bindkey -M vicmd "0" beginning-of-line
-# bindkey -M vicmd "$" end-of-line
   bindkey -M vicmd "e" vi-forward-word-end
   bindkey -M vicmd "E" vi-forward-blank-word-end
 
@@ -64,6 +62,12 @@ export KEYTIMEOUT=2
   bindkey -M vicmd "U" redo
   bindkey -M vicmd "^?" backward-delete-char
   bindkey -M vicmd "^[[3~" delete-char
+
+# Visual mode (J)
+  bindkey -M visual "h" backward-char
+  bindkey -M visual "k" down-line-or-history
+  bindkey -M visual "j" up-line-or-history
+  bindkey -M visual "l" forward-char
 
 # Keep ctrl+r searching
 #  bindkey -M viins '^R' history-incremental-pattern-search-forward
@@ -101,6 +105,7 @@ bindkey -M isearch '^[[A' vi-forward-char
 bindkey -M isearch '^[[C' vi-forward-char
 bindkey -M isearch '^[[B' vi-forward-char
 bindkey -M visual '^[[A' vi-forward-char
+bindkey -M visual '^[[B' vi-forward-char
 bindkey -M visual '^[[C' vi-forward-char
 bindkey -M visual '^[[D' vi-forward-char
 bindkey -M viins "^[OA" vi-forward-char
