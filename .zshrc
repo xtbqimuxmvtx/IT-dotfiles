@@ -6,11 +6,13 @@ alias vim=nvim
 alias vic=vi 
 alias vi=\vim
 alias v=nvim
+alias diff='diff --color=always'
 alias p='sudo pacman'
 alias Ss='sudo systemctl'
 alias ss='sudo systemctl'
 alias light='brightnessctl -m s'
 alias bright='brightnessctl -q s 100%'
+# CPU performance/scaling/energy/governor:
 alias cpugperf='sudo cpupower frequency-set -g performance'
 alias cpuperf='cpugperf'
 alias cpugpower='sudo cpupower frequency-set -g powersave'
@@ -22,6 +24,14 @@ alias cpupower-get='cat /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor'
 alias energyperf='sudo cpupower set -e performance'
 alias energypowersave='sudo cpupower set -e power'
 alias energypower='energypowersave'
+####
+## Common mis-spellings:
+alias apt='p -S'
+alias upgrade='p -Syu'
+alias dist-upgrade='eos-update --aur'
+#alias 'apt upgrade'='p -Syu'
+alias 'apt install'='p -S'
+alias Grep=grep
 #####################################
 ## Configuration
 # History in cache directory:
@@ -43,8 +53,11 @@ bindkey '^e' edit-command-line
 #####################################
 # Vi Mode BINDS (bunnyfly, colemak forums)
 #####################################
+# Set default prompt to be in vi-mode:
+zle-line-init() { zle -K vicmd; }
+zle -N zle-line-init
 bindkey -v
-export KEYTIMEOUT=2
+export KEYTIMEOUT=1.4
 # Colemak.
   bindkey -M vicmd "h" backward-char
   bindkey -M vicmd "K" down-line-or-history
@@ -53,9 +66,16 @@ export KEYTIMEOUT=2
   bindkey -M vicmd "i" vi-insert
   bindkey -M vicmd "I" vi-insert-bol
 #  bindkey -M vicmd "k" vi-repeat-search
-  bindkey -M vicmd "K" vi-rev-repeat-search
   bindkey -M vicmd "e" vi-forward-word-end
   bindkey -M vicmd "E" vi-forward-blank-word-end
+
+# Toggle insert mode easily:
+  bindkey -M vicmd "^ " vi-insert 
+  bindkey -M viins "^ " vi-cmd-mode
+  bindkey -M visual "^ " vi-cmd-mode
+
+  bindkey -M vicmd "v" vi-cmd-mode
+  bindkey -M vicmd "^V" visual-mode
 
 # Sane Undo, Redo, Backspace, Delete.
   bindkey -M vicmd "u" undo
@@ -92,14 +112,14 @@ bindkey -M main '^[[D' vi-forward-char
 bindkey -M main '^[[A' vi-forward-char
 bindkey -M main '^[[B' vi-forward-char
 bindkey -M main '^[[C' vi-forward-char
-bindkey -M vicmd '^[[D' vi-forward-char
-bindkey -M vicmd '^[[A' vi-forward-char
-bindkey -M vicmd '^[[B' vi-forward-char
-bindkey -M vicmd '^[[C' vi-forward-char
-bindkey -M viopp '^[[C' vi-forward-char
-bindkey -M viopp '^[[A' vi-forward-char
-bindkey -M viopp '^[[B' vi-forward-char
-bindkey -M viopp '^[[D' vi-forward-char
+bindkey -M vicmd '^[[D' vi-cmd-mode
+bindkey -M vicmd '^[[A' vi-cmd-mode
+bindkey -M vicmd '^[[B' vi-cmd-mode
+bindkey -M vicmd '^[[C' vi-cmd-mode
+bindkey -M viopp '^[[C' vi-cmd-mode
+bindkey -M viopp '^[[A' vi-cmd-mode
+bindkey -M viopp '^[[B' vi-cmd-mode
+bindkey -M viopp '^[[D' vi-cmd-mode
 bindkey -M isearch '^[[D' vi-forward-char
 bindkey -M isearch '^[[A' vi-forward-char
 bindkey -M isearch '^[[C' vi-forward-char
@@ -108,14 +128,14 @@ bindkey -M visual '^[[A' vi-forward-char
 bindkey -M visual '^[[B' vi-forward-char
 bindkey -M visual '^[[C' vi-forward-char
 bindkey -M visual '^[[D' vi-forward-char
-bindkey -M viins "^[OA" vi-forward-char
-bindkey -M viins "^[OB" vi-forward-char
-bindkey -M viins "^[OC" vi-forward-char
-bindkey -M viins "^[OD" vi-forward-char
-bindkey -M viins '^[[A' vi-forward-char
-bindkey -M viins '^[[B' vi-forward-char
-bindkey -M viins '^[[C' vi-forward-char
-bindkey -M viins '^[[D' vi-forward-char
+bindkey -M viins "^[OA" vi-insert
+bindkey -M viins "^[OB" vi-insert
+bindkey -M viins "^[OC" vi-insert
+bindkey -M viins "^[OD" vi-insert
+bindkey -M viins '^[[A' vi-insert
+bindkey -M viins '^[[B' vi-insert
+bindkey -M viins '^[[C' vi-insert
+bindkey -M viins '^[[D' vi-insert
 # bindkey '^[[D' vi-forward-char
 # bindkey '^[[A' vi-forward-char
 # bindkey '^[[B' vi-forward-char
@@ -181,13 +201,12 @@ function zle-keymap-select {
   fi
 }
 zle -N zle-keymap-select
-zle-line-init() {
-    zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
-    echo -ne "\e[5 q"
-}
 zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+# zle-line-init() {
+#     zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+#     echo -ne "\e[5 q"
 
 #####################################
 ## zsh-history-substring-search binds:
