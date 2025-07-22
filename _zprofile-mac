@@ -1,0 +1,22 @@
+export EDITOR=emacs
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+export BROWSER="brave"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export LESSKEYIN="$XDG_CONFIG_HOME/.lesskeyrc"
+
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_STATE_HOME="$HOME/.local/state"
+#export XDG_RUNTIME_DIR="/data/data/com.termux/files/usr/var/run/user/10265"
+##
+# Your previous /Users/j/.zprofile file was backed up as /Users/j/.zprofile.macports-saved_2025-06-18_at_17:54:16
+##
+
+# MacPorts Installer addition on 2025-06-18_at_17:54:16: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+export PATH="$PATH:/Applications/dmenu-mac.app/Contents/Resources/"
+export PATH="/opt/homebrew/Cellar/osslsigncode/2.10/bin/:$PATH"
+export PATH="$PATH:/Users/j/.cargo/bin"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
