@@ -1,0 +1,66 @@
+set viminfofile=$XDG_STATE_HOME/vim/viminfo
+set hidden
+set nowrap
+syntax on
+set relativenumber
+
+" set vimwiki req.s
+set nocompatible
+filetype plugin on
+
+" Mimic Emacs Line Editing in Insert Mode Only
+inoremap <C-A> <Home>
+inoremap <C-B> <Left>
+inoremap <C-E> <End>
+inoremap <C-F> <Right>
+
+inoremap <A-f> <Esc>lwi
+inoremap <A-b> <Esc>bi
+
+" â is <Alt-B>  
+" inoremap â <C-Left>
+" æ is <Alt-F>
+" inoremap æ <C-Right>
+
+inoremap <C-K> <Esc>xlDa
+inoremap <C-U> <Esc>d0xi
+inoremap <C-Y> <Esc>Pa
+"inoremap <C-X><C-S> <Esc>:w<CR>a" set basics
+
+" Initialize vim-plug
+call plug#begin('~/.vim/plugged')
+
+" List your plugins here
+Plug 'tpope/vim-sensible'
+" A sensible default configuration for Vim
+Plug 'hat0uma/csvview.nvim'
+" A csv viewer for Vim
+Plug 'vimwiki/vimwiki'
+" A wiki maker for Vim
+
+let g:vimwiki_list = [
+\   {
+\     'syntax': 'markdown',
+\     'ext': 'md',
+\     'path': '$HOME/Documents/vimwiki'
+\   }
+\ ]
+
+" :HelpCurwin to open fullscreen-help
+command -bar -nargs=? -complete=help HelpCurwin execute s:HelpCurwin(<q-args>)
+let s:did_open_help = v:false
+
+function s:HelpCurwin(subject) abort
+  let mods = 'silent noautocmd keepalt'
+  if !s:did_open_help
+    execute mods .. ' help'
+    execute mods .. ' helpclose'
+    let s:did_open_help = v:true
+  endif
+  if !empty(getcompletion(a:subject, 'help'))
+    execute mods .. ' edit ' .. &helpfile
+    set buftype=help
+  endif
+  return 'help ' .. a:subject
+endfunction
+

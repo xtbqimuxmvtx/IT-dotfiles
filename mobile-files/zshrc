@@ -1,0 +1,282 @@
+#Environment variables:
+export EDITOR=emacs
+export WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
+export ZSH_MYCONF=$HOME/.config/zsh/.zshrc
+autoload -U colors && colors	# Load colors
+#PS1="%B%{$fg[red]%}[%{$fg[yellow]%\{🤖}$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+PS1="%B%{$fg[red]%}[%{$fg[yellow]‹🤖›$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]$fg[yellow]%$fg[yellow]]
+%{$reset_color%}%# "
+PS1="%{$fg[yellow][$PS1%"
+# opts
+setopt autocd		# Automatically cd into typed directory.
+setopt inc_append_history # dont replace last exited zsh's history
+setopt interactive_comments
+#####################################
+## Aliases
+alias vim=nvim 
+alias vic=vi 
+alias vi=\vim
+alias v=nvim
+alias emacs=nvim
+alias diff='diff --color=always'
+alias 'sshd'='$XDG_DATA_HOME/scripts/get-local.sh && sshd -4'
+alias -g 'sshd -4'='$HOME/scripts/get-local.sh && sshd -4'
+alias p='sudo pacman'
+alias Ss='sudo systemctl'
+alias ss='sudo systemctl'
+# shortcuts
+alias sc="source $XDG_CONFIG_HOME/zsh/.zshrc"
+alias vsc="nvim $XDG_CONFIG_HOME/nvim/init.lua"
+alias esc="nvim $XDG_CONFIG_HOME/zsh/.zshrc"
+alias zsc=esc
+alias q="exit"
+alias xx="exit"
+alias -s {md,txt,conf,cfg,yaml,json,html}=nvim
+alias -s {zshrc,vimrc,bashrc}=nvim
+####
+alias rc='nvim ~/.zshrc'
+alias vimc='nvim ~/.config/nvim/init.lua'
+alias nvimc='nvim ~/.config/nvim/init.lua'
+alias exe='exec $SHELL'
+## cmoon mispellings
+alias mam=man
+alias 'ex#c'=exec
+## Common mis-spellings:
+# alias apt='p -S'
+# alias upgrade='p -Syu'
+# alias dist-upgrade='eos-update --aur'
+#alias -g 'apt upgrade'='p -Syu'
+#alias 'apt install'='p -S'
+alias Grep=grep
+#####################################
+# lappy
+alias light='brightnessctl -m s'
+alias bright='brightnessctl -q s 100%'
+# CPU performance/scaling/energy/governor:
+alias cpugperf='sudo cpupower frequency-set -g performance'
+alias cpuperf='cpugperf'
+alias cpugpower='sudo cpupower frequency-set -g powersave'
+alias cpubalanced='cpugpower'
+alias cpuPower='cpugpower'
+alias cpupowersave='cpugpower'
+alias cpuGet='cat /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor'
+alias cpupower-get='cat /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor'
+alias energyperf='sudo cpupower set -e performance'
+alias energypowersave='sudo cpupower set -e power'
+alias energypower='energypowersave'
+#####################################
+## Configuration
+# History in cache directory:
+HISTSIZE=10000
+SAVEHIST=10000
+HISTFILE=~/.cache/zsh/history
+#####################################
+# Basic auto/tab completed From Luke's video (https://youtu.be/eLEo4OQ-cuQ)
+#####################################
+autoload -U compinit
+zstyle ':completion*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots)		# Include hidden files
+#####################################
+vi-mode() { set -o vi; }
+emacs-mode() { set -o emacs; }
+zle -N vi-mode
+zle -N emacs-mode
+## edit-command-line mode
+autoload edit-command-line; zle -N edit-command-line
+bindkey '\ee' edit-command-line
+bindkey '^X^E' edit-command-line
+bindkey -M vicmd '^X^V' emacs-mode
+bindkey -M visual '^X^V' emacs-mode
+#####################################
+# Vi Mode BINDS (bunnyfly, colemak forums)
+#####################################
+# Set default prompt to be in vi-mode:
+#zle-line-init() { zle -K vicmd; }
+#zle -N zle-line-init
+#bindkey -v
+export KEYTIMEOUT=1.4
+# Colemak.
+  bindkey -M vicmd "h" backward-char
+  bindkey -M vicmd "K" down-line-or-history
+  bindkey -M vicmd "J" up-line-or-history
+  bindkey -M vicmd "l" forward-char
+  bindkey -M vicmd "i" vi-insert
+  bindkey -M vicmd "I" vi-insert-bol
+#  bindkey -M vicmd "k" vi-repeat-search
+  bindkey -M vicmd "e" vi-forward-word-end
+  bindkey -M vicmd "E" vi-forward-blank-word-end
+bindkey -M emacs '\ex' vi-cmd-mode
+bindkey -M emacs '\e[A' vi-cmd-mode
+# Toggle insert mode easily:
+  bindkey -M vicmd "^ " emacs-mode
+  bindkey -M viins "^ " vi-cmd-mode
+  bindkey -M visual "^ " vi-cmd-mode
+
+  bindkey -M vicmd "v" vi-cmd-mode
+  bindkey -M vicmd "^V" visual-mode
+
+# Sane Undo, Redo, Backspace, Delete.
+  bindkey -M vicmd "u" undo
+  bindkey -M vicmd "U" redo
+  bindkey -M vicmd "^?" backward-delete-char
+  bindkey -M vicmd "^[[3~" delete-char
+
+# Visual mode (J)
+  bindkey -M visual "h" backward-char
+  bindkey -M visual "k" down-line-or-history
+  bindkey -M visual "j" up-line-or-history
+  bindkey -M visual "l" forward-char
+
+# Keep ctrl+r searching
+bindkey -M viins '^R' history-incremental-pattern-search-forward
+bindkey -M viins '^r' history-incremental-pattern-search-backward # End bunnyfly config
+
+## Luke Smith's in menuselect (!ls ; then tab):
+### Use vim keys in tab complete menu:
+bindkey -M menuselect 'h' vi-backward-char
+# bindkey -M menuselect 'j' vi-up-line-or-history # swap j<->k
+bindkey -M menuselect 'l' vi-forward-char
+# bindkey -M menuselect 'k' vi-down-line-or-history # swap j<->k
+
+# mobile regular bindings:
+bindkey -M menuselect 'k' vi-up-line-or-history  # mobile unswap
+bindkey -M menuselect 'j' vi-down-line-or-history # mobile unswap
+bindkey -v '^?' backward-delete-char
+###
+#####################################
+## Attempt unbind all arrow keys:
+#####################################
+# bindkey -M main "^[OA" vi-forward-char
+# bindkey -M main "^[OB" vi-forward-char
+# bindkey -M main "^[OC" vi-forward-char
+# bindkey -M main "^[OD" vi-forward-char
+# bindkey -M main '^[[D' vi-forward-char
+# bindkey -M main '^[[A' vi-forward-char
+# bindkey -M main '^[[B' vi-forward-char
+# bindkey -M main '^[[C' vi-forward-char
+# bindkey -M vicmd '^[[D' vi-cmd-mode
+# bindkey -M vicmd '^[[A' vi-cmd-mode
+# bindkey -M vicmd '^[[B' vi-cmd-mode
+# bindkey -M vicmd '^[[C' vi-cmd-mode
+# bindkey -M viopp '^[[C' vi-cmd-mode
+# bindkey -M viopp '^[[A' vi-cmd-mode
+# bindkey -M viopp '^[[B' vi-cmd-mode
+# bindkey -M viopp '^[[D' vi-cmd-mode
+# bindkey -M isearch '^[[D' vi-forward-char
+# bindkey -M isearch '^[[A' vi-forward-char
+# bindkey -M isearch '^[[C' vi-forward-char
+# bindkey -M isearch '^[[B' vi-forward-char
+# bindkey -M visual '^[[A' vi-forward-char
+# bindkey -M visual '^[[B' vi-forward-char
+# bindkey -M visual '^[[C' vi-forward-char
+# bindkey -M visual '^[[D' vi-forward-char
+# bindkey -M viins "^[OA" vi-insert
+# bindkey -M viins "^[OB" vi-insert
+# bindkey -M viins "^[OC" vi-insert
+# bindkey -M viins "^[OD" vi-insert
+# bindkey -M viins '^[[A' vi-insert
+# bindkey -M viins '^[[B' vi-insert
+# bindkey -M viins '^[[C' vi-insert
+# bindkey -M viins '^[[D' vi-insert
+# bindkey '^[[D' vi-forward-char
+# bindkey '^[[A' vi-forward-char
+# bindkey '^[[B' vi-forward-char
+# bindkey '^[[C' vi-forward-char
+# bindkey "^[[1;5C" vi-forward-char
+# bindkey "^[[1;5D" vi-forward-char
+# bindkey -M main "^[OA" vi-forward-char
+# bindkey -M menuselect "^[OA" vi-forward-char
+# bindkey -M menuselect "^[OB" vi-forward-char
+# bindkey -M menuselect "^[OC" vi-forward-char
+# bindkey -M menuselect "^[OD" vi-forward-char
+# bindkey -M menuselect '^[[D' vi-forward-char
+# bindkey -M menuselect '^[[A' vi-forward-char
+# bindkey -M menuselect '^[[B' vi-forward-char
+# bindkey -M menuselect '^[[C' vi-forward-char
+# bindkey -M command "^[OA" vi-forward-char
+# bindkey -M command "^[OB" vi-forward-char
+# bindkey -M command "^[OC" vi-forward-char
+# bindkey -M command "^[OD" vi-forward-char
+# bindkey -M command '^[[D' vi-forward-char
+# bindkey -M command '^[[A' vi-forward-char
+# bindkey -M command '^[[B' vi-forward-char
+# bindkey -M command '^[[C' vi-forward-char
+# bindkey -M emacs "^[OA" vi-forward-char
+# bindkey -M emacs "^[OB" vi-forward-char
+# bindkey -M emacs "^[OC" vi-forward-char
+# bindkey -M emacs "^[OD" vi-forward-char
+# bindkey -M emacs '^[[D' vi-forward-char
+# bindkey -M emacs '^[[A' vi-forward-char
+# bindkey -M emacs '^[[B' vi-forward-char
+# bindkey -M emacs '^[[C' vi-forward-char
+# bindkey -r vicmd '^[[D'
+# bindkey -r vicmd '^[[A'
+# bindkey -r vicmd '^[[B'
+# bindkey -r vicmd '^[[C'
+# bindkey -r viopp '^[[C'
+# bindkey -r viopp '^[[A'
+# bindkey -r viopp '^[[B'
+# bindkey -r viopp '^[[D'
+# bindkey -r isearch '^[[D'
+# bindkey -r isearch '^[[A'
+# bindkey -r isearch '^[[C'
+# bindkey -r isearch '^[[B'
+# bindkey -r visual '^[[B' 
+# bindkey -r visual '^[[A'
+# bindkey -r visual '^[[C'
+# bindkey -r visual '^[[D'
+#####################################
+# Cursor context for Normal and Insert modes
+# from Luke Smith:
+# https://youtu.be/eLEo4OQ-cuQ
+#####################################
+function emacs {
+	set -o emacs;
+}
+function vi-cmd {
+	set -o vi;
+}
+# Change cursor shape for different vi modes.
+function zle-keymap-select {
+  if [[ ${KEYMAP} == vicmd ]] ||
+     [[ $1 = 'block' ]]; then
+    echo -ne '\e[1 q'
+  elif [[ ${KEYMAP} == main ]] ||
+       [[ ${KEYMAP} == viins ]] ||
+       [[ ${KEYMAP} = '' ]] ||
+       [[ $1 = 'beam' ]]; then
+    echo -ne '\e[5 q'
+  fi
+}
+zle -N zle-keymap-select
+echo -ne '\e[5 q' # Use beam shape cursor on startup.
+preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+# zle-line-init() {
+#     zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+#     echo -ne "\e[5 q"
+
+#####################################
+## zsh-history-substring-search binds:
+# https://github.com/zsh-users/zsh-history-substring-search
+bindkey -M vicmd 'j' history-substring-search-up
+bindkey -M vicmd 'k' history-substring-search-down
+bindkey -M vicmd "^[^J" history-search-backward
+bindkey -M vicmd "^[^K" history-search-forward
+bindkey -M emacs '^J' history-substring-search-up
+#bindkey -M emacs '^K' history-substring-search-down
+#bindkey -M emacs 'M-\eK' history-substring-search-down
+bindkey -M emacs "^[^J" history-search-backward
+bindkey -M emacs "^[^K" history-search-forward
+bindkey -M emacs '\e\eK' history-substring-search-down
+#####################################
+bindkey -e
+export EDITOR=nvim
+export VISUAL=nvim
+# Plugins:
+# Syntax highlighting & History subsearch (similar to fish)
+zle -N 'history-substring-search-down'
+zle -N 'history-substring-search-up'
+source ~/git/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh > /dev/null
+source ~/git/zsh-history-substring-search/zsh-history-substring-search.plugin.zsh > /dev/null

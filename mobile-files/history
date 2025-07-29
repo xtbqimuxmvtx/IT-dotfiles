@@ -1,0 +1,1706 @@
+nvim
+bind
+bindkey
+bindkey
+nvim .zshrc
+source .zshrc
+pkill nvim
+exec $SHELL
+cat
+nvim .zshrc
+exec $SHELL
+nvim .zshrc
+help
+man zshall
+exec $SHELL
+mn zshzle
+man zshzle
+nvim .zshrc
+source .zshrc
+exec $SHEL
+exec $SHELL
+man zsgzle
+man zshzle
+nvim .zshrc
+exec $SHELL
+cat
+man zshzle
+nvim .zshrc
+exec $SHELL
+exec $SHELL
+vim .zshrc
+cd git
+cd IT-dotfiles
+git pull master HEAD
+ls
+git pull origin HEAD
+ls
+ls -a
+mv ~/.zshrc Documents/mob-.zshrc
+mv ~/.zshrc ~/Documents/mob-.zshrc
+mv .zshrc ~
+exec $SHELL
+v ~/.zshrc
+vim ~/.zshrc
+exec $SHELL
+i3bar
+termux-x11
+grep x11 ~/.cache/zsh/history
+grep 3 ~/.cache/zsh/history
+cat ~/.cache/zsh/history
+bash --rcfile
+bash --rcfile f
+fc -W
+i3bar
+termux-x11
+grep x11 ~/.cache/zsh/history
+grep 3 ~/.cache/zsh/history
+cat ~/.cache/zsh/history
+bash --rcfile
+bash --rcfile f
+fc -W
+vim ~/.zshrc
+cd ~
+exec zsh
+polybar
+polybar
+fastfetch
+screenfetch
+pkg i fastfetch
+vim .config/i3
+termux-x11 :1 -xstartup "dbus-launch --exit-with-session i3" -dpi 141
+fc -W
+man st
+locate .tts
+updatedb &
+cp git/IT-dotfiles/apps/i3/0xProtoNerdFont-Regular* ./Documents
+locate .tts
+locate .ttf
+cp Documents/*.ttf .termux/fonts
+nvim .termux/fonts
+plocate DeJaVy
+plocate DeJaVu
+locate DeJaVu
+locate dejavu
+locate dejavu|grep ttf
+apt search 0x
+cp git/IT-dotfiles/apps/i3/0xProtoNerdFontMono-Regular.ttf .termux/fonts -i
+ls .termux/fonts
+vim
+vim .config/i3/config
+termux-x11 :1 -xstartup "dbus-launch --exit-with-session i3" -dpi 234
+fg
+exit
+fg
+exir
+exit
+termux-x11 :1 -xstartup "dbus-launch --exit-with-session i3" -dpi 234
+termux-x11 :1 -xstartup "dbus-launch --exit-with-session i3" -dpi 234
+ps auz
+ps aux
+ps aux
+pkill i3
+pkill i3 -9
+ps aux
+ps aux
+termux-x11 :1 -xstartup "dbus-launch --exit-with-session i3" -dpi 234
+bf
+vg
+bg
+echo 0xProtoNerdFontMono
+fc -W
+fc
+exit
+fc -r
+fc
+fc -r
+fc
+fc -r
+fc
+exit
+fc -R
+echo 0xProtoNerdFontMono
+st -f 0xProtoNerdFont
+st -f 0xProtoNerdFont.ttf
+pwd
+cd xtermux
+cd .termux
+sr -f font.ttf
+st -f font.ttf
+st -f ./font.ttf
+foot
+foot
+xwayland
+Xwayland
+./pbge
+ssh -p 23 10.1.1.33
+vim .config/i3/config
+termux-x11 :1 -xstartup "dbus-launch --exit-with-session i3" -dpi 234
+bg
+vim .config/i3/config
+vim .config/i3/config
+history -w
+history -W
+fc =W
+fc -W
+apt list --installed > file1
+cat file1 > file2
+vim filew
+vim file2
+diff fike*
+diff file
+diff file&
+diff file*
+rm file*
+ssh -p 23 10.1.1.33
+cal
+du -a Documents
+pidov zsh
+pido zsh
+pidof zsh
+pidof dash
+whereis /bin/sh
+ls -l /data/data/com.termux/files/usr/bin/sh
+pkg i gotop
+uname
+uname -n
+gotop
+uname -ao
+uname -o
+exit
+xev
+termux-x11 :1 -xstartup "dbus-launch --exit-with-session i3" -dpi 234
+pkg list
+ls
+lf
+apt info lf
+pkg i lf
+exit
+nvim
+xev
+pkg i xorg-xev
+pkg upgrade
+bg
+bg
+bg
+fg
+exit
+./pbge
+nvim
+exec bash
+exit
+fg
+nvim
+cat
+fg
+[vim
+\vim
+nvim
+fg
+\vim
+fg
+\vim
+nvim
+bash --rcfile .t
+fg
+bash
+exit
+#bindkey -M viins '^M' "testicles"
+nvim
+fg
+bindkey -L
+bindkey -L|grep lete
+bindkey -L|grep line
+nvim
+fg
+cat Documents/functionZshtest
+nvim Documents
+bindkey -L
+bindkey -ML
+bindkey -M main -L
+vim Documents/functionZshtest
+fg
+exec $SHELL
+exec $SHELL
+exec $SHELL
+man zshzle
+man zshall
+man zshbuiltins
+mam zshzle
+man zshzle
+vim .zshrc
+bindkey -L
+vim .zshrc
+fg %nvim
+exec $SHELL
+h
+echo a
+echo a
+vim .zshrc
+exec $SHELL
+echo a
+hdjdjdj
+vim .zshrc
+bindkey -L
+fg
+exec $SHELL
+i
+rw
+echo g
+bindkey -L
+vim .vimrc
+vim .zshrc
+vim .zshrc
+bindkey "^M" run-accept-line
+bindkey "^M" run-accept-line
+bindkey -L
+bindkey "^M" run-accept-line
+exit
+test
+test no
+bindkey -L
+vim .zshrc
+exit
+bindkey -L
+bindkey -l
+vim .zshrc
+exit
+bindkey -L
+bindkey -L
+bindkey -M vicmd -L
+clear
+bindkey -M vicmd -L
+man zshall
+man zshbuiltins
+man zshzle
+test
+test
+g
+hggbgg
+test -h
+man zshbuiltins
+[[test
+[[test]]
+vim
+vim -c tips
+vim -c h tips
+exit
+exit
+man zsh
+man zshall
+vim
+vim
+vim
+v
+v
+echo $USERNAME
+ed
+ls
+cat new
+cat tips
+rm tips
+ed
+clear
+ed
+ed r file
+ed fjle
+nvim
+man zsh
+rzsh
+zsh -r
+man zsg
+man zsh
+man zsh
+man zshxpn
+man zshexpn
+man zsh
+#man zshzle
+vim .zshrc
+man zshzle
+man zshzle
+jdjdbdbdjdjdj jsjdbfbd 
+zsh -f
+man zshall
+vared prompt
+echo
+vared PROMPT
+vared PROMPT
+vared PROMPT
+man zshzle
+man env
+man zhzle
+man zshzle
+#test
+vim .zshrc
+exec $SHELL
+vim .zshrc
+vim .zshrc
+source .zshrc
+vim .zshrc
+vim .zshrc
+source .zshrc
+vim .zshrc
+source .zshrc
+vim .zshrc
+vim .zshrc
+vim .zshrc
+source .zshrc
+man zsh
+man zshall
+man zshoptions
+vim .zshrc
+exec $SHELL
+fg
+nvim .zshrc
+source .zshrc
+ls lf
+lf
+vim .zshrc
+fg
+cd git
+git clone 'https://github.com/zdharma-continuum/fast-syntax-highlighting?tab=readme-ovhlighting\
+'
+git clone 'https://github.com/zdharma-continuum/fast-syntax-highlighting?tab=readme-ovhlighting''
+git clone 'https://github.com/zdharma-continuum/fast-syntax-highlighting'
+ls
+ls fast-syntax-highlighting
+cd fast-syntax-highlighting
+pwd
+vim ~/.zshrc
+fg
+vim ~/.zshrc
+exec $SHELL
+ks
+ls
+source fast-syntax-highlighting.plugin.zsh
+vim .vimrc
+vim .zshrc
+source /data/data/com.termux/files/home/git/fast-syntax-highlighting >/dev/null
+source /data/data/com.termux/files/home/git/fast-syntax-highlighting > /dev/null
+source /data/data/com.termux/files/home/git/fast-syntax-highlighting/fast-syntax-highlighting.zsh > /dev/null
+ls /data/data/com.termux/files/home/git/fast-syntax-highlighting/fast-syntax-highlighting.zsh > /dev/null
+ls /data/data/com.termux/files/home/git/fast-syntax-highlighting/fast-syntax-
+ls /data/data/com.termux/files/home/git/fast-syntax-highlighting/
+ls /data/data/com.termux/files/home/git/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh > /dev/null
+source /data/data/com.termux/files/home/git/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh > /dev/null
+echo "source /data/data/com.termux/files/home/git/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh > /dev/null"|tee -a .zshrc
+vim .zshrc
+exec $SHELL
+vim .zshrc
+source .zshrc
+source .zshrc
+vim .zshrc
+source .zshrc
+echo "source /data/data/com.termux/files/home/git/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh > /dev/null"|tee -a .zshrc
+echo "source hdata/data/com.termux/files/home/git/fast-syntax-highlighting/fast-syntax-highlightingiplugin.zsh > /dev/null"|tee -a .zshrc
+vim .zshrc
+source .zshrc
+vim .zshrc
+source .zshrc
+vim .zshrc
+vim .zshrc
+source .zshrc
+cd .android
+vim 
+echo
+vim .zshr
+vim ~/.zshrc
+source ~/.zshrc
+vim ~/.zshrc
+source ~/.zshrc
+hey
+echo yes
+echo "No command hey found, did you, No command hey found, did you"
+vim ~/.zshrc
+source ~/.zshrc
+source ~/.zshrc
+source ~/.zshrc
+source ~/.zshrc
+vim ~/.zshrc
+source ~/.zshrc
+vim ~/.zshrc
+source ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+source ~/.zshrc
+vim ~/.zshrc
+source ~/.zshrc
+vim ~/.zshrc
+source ~/.zshrc
+vim ~/.zshrc
+ssh -p 23 10.1.1.33
+ssh -4
+sshd -4
+ssh 100.65.80.50
+ssh 100.65.80.50 -u deploy
+ssh 100.65.80.50 -l deploy
+fish
+exit
+zsh --rc-file
+zsh --rcfile
+vim .zshrc
+exec zsh
+vim .zshrc
+exec zsh
+$USERNAME
+set USERNAME=root
+$USERNAME
+export USERNAME=root
+$USERNAME
+export USERNAME=root echo $PS
+echo $PS
+echo $PS1
+export USERNAME=root echo $PS1
+cp .zshrc .zshStable
+cd git
+ls
+ls _git
+ls _git/pulled
+git clone 'https://github.com/zsh-users/zsh-history-substring-search'
+git clone https://github.com/zsh-users/zsh-history-substring-search
+cd zsh-history-substring-search
+ls
+source zsh-history-substring-search.zsh
+ssh -p 23 10.1.1.33
+# zsh-history-substring-search configuration\
+bindkey '^[[A' history-substring-search-up # or '\eOA'\
+bindkey '^[[B' history-substring-search-down # or '\eOB'\
+bindkey 'K' history-substring-search-up # or '\eOA'\
+bindkey 'J' history-substring-search-down # or '\eOB'
+# zsh-history-substring-search configuration\
+bindkey '^[[A' history-substring-search-up # or '\eOA'\
+bindkey '^[[B' history-substring-search-down # or '\eOB'\
+bindkey 'K' history-substring-search-up # or '\eOA'\
+bindkey 'J' history-substring-search-down # or '\eOB'
+cat
+fg
+# zsh-history-substring-search configuration\
+bindkey '^[[1;5A' history-substring-search-up # or '\eOA'\
+bindkey '^[[1;5B' history-substring-search-down # or '\eOB'\
+bindkey '\e1;5A' history-substring-search-up # or '\eOA'\
+bindkey '\e1;5B' history-substring-search-down # or '\eOB'
+# zsh-history-substring-search configuration\
+bindkey '^[[1;5A' history-substring-search-up # or '\eOA'\
+bindkey '^[[1;5B' history-substring-search-down # or '\eOB'\
+bindkey '\e1;5A' history-substring-search-up # or '\eOA'\
+bindkey '\e1;5B' history-substring-search-down # or '\eOB'
+# zsh-history-substring-search configuration\
+bindkey -r '^[[A' history-substring-search-up # or '\eOA'\
+bindkey -r '^[[B' history-substring-search-down # or '\eOB'\
+bindkey -r 'K' history-substring-search-up # or '\eOA'\
+bindkey -r 'J' history-substring-search-down # or '\eOB'
+# zsh-history-substring-search configuration\
+bindkey 'K' history-substring-search-up # or '\eOA'\
+bindkey 'J' history-substring-search-down # or '\eOB'
+# zsh-history-substring-search configuration\
+bindkey '^[[1;5A' history-substring-search-up # or '\eOA'\
+bindkey '^[[1;5B' history-substring-search-down # or '\eOB'\
+bindkey '\e1;5A' history-substring-search-up # or '\eOA'\
+bindkey '\e1;5B' history-substring-search-down # or '\eOB'
+# zsh-history-substring-search configuration\
+bindkey 'K' history-substring-search-up # or '\eOA'\
+bindkey 'J' history-substring-search-down # or '\eOB'\
+#bindkey '^[[1;5A' history-substring-search-up # or '\eOA'\
+#bindkey '^[[1;5B' history-substring-search-down # or '\eOB'\
+bindkey '\e1;5A' history-substring-search-up # or '\eOA'\
+bindkey '\e1;5B' history-substring-search-down # or '\eOB'
+read
+read ls
+man read
+man zshbuiltins
+cd git
+cd ~/git
+la
+la
+ls
+cd zsh-history-substring-search
+la
+ls
+vim ~/.zshrc
+cat README.md
+vim ~/.zshrc
+fg
+exec $SHELL
+vim ~/.zshrc
+exec $SHELL
+vim ~/.zshrc
+ls
+source ./zsh-history-substring-search.plugin.zsh
+source ./zsh-history-substring-search.zsh
+run-help sour
+vim ~/.zshrc
+exec $SHELL
+vim ~/.zshrc
+exec $SHELL
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+fg
+exec $SHELL
+vim ~/.zshrc
+exec $SHELL
+bindkey -L|grep viins
+bindkey -L|grep viins
+bindkey -L
+bindkey -L
+bindkey -L|grep vi
+bindkey -L|grep vi
+bindkey -L vicmd|grep vi
+bindkey -LM vicmd|grep vi
+man zshbuiltins
+man zshzle
+bindkey H emacs
+bindkey -M H emacs
+bindkey -M emacs H emacs
+bindkey -M main H emacs
+bindkey -M viins H emacs
+vim ~/.zshrc
+exec $SHELL
+bindkey -M main H emacs
+bindkey -M viins H emacs
+bindkey -M viins H emacs
+vim ~/.zshrc
+zsh
+bindkey -M viins H emacs
+bindkey -M viins H emacs
+bindkey -M emacs -L
+bindkey -M emacs -L|grep B
+man zle
+man zshzle
+vim ~/.zshrc
+zsh
+exec $SHELL
+vim ~/.zshrc
+exec $SHELL
+bindkey '\ei' vi-cmd
+nvim .zshrc
+exec $SHELL
+bindkey -e
+vim .zshrc
+ex#c $shell
+exec $shell
+bindkey -e
+vim .zshrc
+exec $shell
+exec $SHELL
+bindkey -e
+vim .zshrc
+exec $SHELL
+vim .zshrc
+exec $SHELL
+vim .zshrc
+exec $SHELL
+vim .zshrc
+exec $SHELL
+cat
+vim .zshrc
+bindkey -L|grep I
+vim .zshrc
+exec $SHELL
+bindkey -L|grep I
+vim .zshrc
+exec $SHELL
+bindkey -L|grep I
+bindkey -L|grep i
+bindkey -LM emacs|grep I
+vim ~
+nvim .zshrc
+source .zshrc
+test.md
+nvim .zshrc
+source .zshrc
+sc
+nvim .zshrc
+echo $OS
+echo $OSTYPE
+echo -n $'\e[b'
+echo -n $'\eb'
+echo -n $'\e-b'
+echo -n $'\e'
+echo -n $'\e b'
+echo -n $'^]]b'
+echo -n $'^[[b'
+zle -la | grep vicmd
+zle -la | grep vicmd
+zle -La | grep vicmd
+zle -la | grep vi
+vim .zshrc
+sc
+pwd
+$ echo $WORDCHARS\
+*?_-.[]~=/&;&%^(){}<>
+vim .zshrc
+sc
+$ echo $WORDCHARS
+echo $WORDCHARS
+pwd
+vim .zshr*
+sc
+yank-pop
+zle -N yank-pop
+yank-pop
+vim .bashrc
+bash
+function precmd { psvar[1]="$(set -o | grep 'emacs.*on' >/dev/null 2>&1 && echo E || echo V)" }
+$ set -o emacs\
+$ bind '"\ee": vi-editing-mode'\
+$ set -o vi\
+$ bind '"\ee": emacs-editing-mode'
+fc
+set -o emacs\
+bind '"\ee": vi-editing-mode'\
+set -o vi\
+bind '"\ee": emacs-editing-mode'
+bash
+bash
+exec ./pbge
+./pbge &
+ssh smg@mycate.mysmg.net.au
+ssh smg@mycare.mysmg.net.au
+mkdir .config/tmux
+vim .config/tmux/tmux.conf
+tmux
+vim .config/tmux/tmux.conf
+la
+ls
+cd sqrt
+vim .config/tmux/tmux.conf
+cd
+vim .config/tmux/tmux.conf
+cd Desktop
+vim -c ':h tips'
+ssh 10.1.1.33
+ssh 10.1.1.33 -p 23
+nvim
+cat foo
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+v
+nvim
+v
+v
+v
+v
+./pbge &
+cat
+vim
+\:e ~
+v ~
+\vim
+\vim -c ":helpCurwin"
+nvim
+nvim
+nvim
+\vim -c ":helpCurwin"
+\vim -c ":helpCurwin"
+\nvim -c ":helpCurwin"
+./pbge
+sshd -4
+sshd -4
+ping 10.1.1.199
+vim .vimrc
+exit
+exit
+nvim .zshrc
+ex#c $SHELL
+nvim .zshrc
+ex#c $SHELL
+bindkey -e
+bindkey -e
+bindkey -L
+bindkey -L|grep vi
+vim .zshrc
+exec $SHELL
+vim .zshrc
+zsh -v
+zsh -h
+zsh --help
+zsh --help|grep version
+zsh --version
+nvim .zshrc
+exec $SHELL
+ls
+vim .zshrc
+exec $SHELL
+vim .zshrc
+autoload -U compinit\
+zstyle ':completion:*' menu select\
+zmodload zsh/complist\
+compinit\
+_comp_options+=(globdots)		# Include hidden files.
+bindkey -L|grep menu
+bindkey -v
+bindkey -L|grep \t
+bindkey -L|grep \\t
+bindkey -L|grep \\"\
+
+bindkey -L|grep \t\"
+ping 10.1.1.33
+vim
+nvim
+nvim
+nvim
+nvim
+man curl
+curl -o foo https://paste.debian.net/plain/1383169
+cat foo
+vim foo
+bindkey -L|grep V
+bindkey -L|grep visual
+bindkey -M emacs "^X^V" vi-cmd
+bindkey -L|grep cms
+bindkey -L|grep cmd
+bindkey -e
+bindkey -L|grep cmd
+vim .zshrc
+ex#c $SHELL
+rc
+vim .zshrc
+exe
+vim .zshrc
+nvim foo .zshrc
+cp .zshrc mobile29-06.zshrc
+mv foo .zshrc
+exe
+ex#c $SHELL
+rc
+vim .zshrc
+exe
+xcport
+exe
+rc
+exit
+./pbge
+./pbge
+fish
+./pbge
+vim
+nvim
+fig
+ls .local
+ls .local/share
+ls
+ls scripts
+find ~|grep fig
+nvim
+nvim .termux/boot
+find .|grep clock
+cd .shortcuts
+ls
+cat fig
+nvim fig-clock.sh
+figlet hey
+exit
+pkill proton-bridge
+exit
+exit
+./pbge
+v
+set -b
+v
+fg
+nvin
+v
+ssh terminal.shop
+ssh terminal.shop -22
+ssh terminal.shop -p 23
+ssh terminal.shop -p 22
+ssh terminal.shop -p 22 -i tmp
+echo "j <3 j"|figlet
+echo "j < 3 j"|figlet
+echo "jess is cool"|figlet
+echo "jess is cool"|figlet -v
+echo "niggerballs"|figlet 
+man figlet
+figlet -m 63 jess
+figlet -m 15 jess
+man figlist
+jess|figlist
+figlet -f smslant test
+figlet -f smslant my name is j o s h u a 
+ssh -p 23 10.1.1.33
+./pbge
+./pbge
+./pbge
+man zsh
+man zshall
+v
+vim .zshrc
+locate proc
+./pbge
+fish
+./pbge
+vim .zshrc
+zsh
+vim .zshrc
+sc
+vim .zshrc
+sc
+exec zsh
+vim .zshrc
+vim .zshrc
+cd git
+vim zsh-history-substring-search/README.md
+vim .zshrc
+vim ~/.zshrc
+zle -N 'history-substring-search-down'
+zle -N 'history-substring-search-up'
+sc
+which cc
+man c
+man c
+man cc
+cc --help
+fc
+cc --help|tail
+cc --help|head
+man llvm
+ping 8.8.8.8
+exit
+v
+exit
+zle -N 'history-substring-search-down'
+fc
+#zle -N 'history-substring-search-down'
+ex#c zsh
+which exe
+vim .zshrc
+sc
+xx
+./pbge
+cp .zshrc Documents universal_.zshrc
+cp .zshrc Documents/universal_.zshrc
+#bindkey -M emacs 
+zshrc
+cat -v
+bindkey -M emacs '\eA' vi-cmd 
+run-help bindkey
+bindkey -M emacs '\e[A' vi-cmd
+bindkey -M emacs '\e[A' vicmd
+vim .zshrc
+bindkey -M emacs '\e[A' vi-cmd-mode
+vim .zshrc
+bindkey -M emacs '\eJ' vi-cmd-mode
+bindkey -M emacs '\ex' vi-cmd-mode
+bindkey -M emacs 'kj' vi-cmd-mode
+bindkey -M emacs 'jk' vi-cmd-mode
+esc
+vim .zshrc
+sc
+exe
+nvim
+nvim
+nvim
+nvim
+v
+v
+esc
+v
+v
+v
+v
+v
+v
+v
+v .config/nvim/init.lua
+grep ComfyLi .config/nvim/init.lua
+v .config/nvim/init.lua
+grep ComfyLi .config/nvim/init.lua
+v
+exec bash
+v
+v
+v
+v
+ssh -p 22 terminal.shop
+ssh -p 22 terminal.shop
+sshd -4
+sshd -4
+exit
+bindkey -L|grep up
+bindkey -LM emacs|grep vi
+n
+h
+Documents
+echo test
+v
+ifconfig
+ip a
+hostname
+hostname --ip-address
+hostname --ip-address gateway
+ifconfig|sed -n 4p
+ifconfig|sed -n 4{p}
+ifconfig|sed -n '4{p}'
+ifconfig|sed -n '4{p; q}'
+ifconfig|sed -n '7{p; q}'
+ifconfig|sed -n '6{p}'
+man ipconfig
+ifconfig --help
+ifconfig --help|less
+ifconfig wlan0
+ifconfig --help|less
+man ifconfig
+ifconfig -s wlan0
+ifconfig -s 
+man ifconfig
+netstat
+man ifconfig
+interfaces
+ifup
+pkg i interfaces
+man interfaces
+ifconfig|sed -n '6{p}'
+ifconfig|sed -n '6{p}'
+ifconfig 2>/dev/null|sed -n '6{p}'
+ifconfig 2>/dev/null|sed -n '6{p}'|awk '/inet/ {print $2}'
+hostname -I
+echo "ifconfig 2>/dev/null|sed -n '6{p}'|awk '/inet/ {print $2}'" > 
+echo "ifconfig 2>/dev/null|sed -n '6{p}'|awk '/inet/ {print $2}'" > ~/scripts/get-local.sh
+cd
+chmod +x scripts/get-local.sh
+vim scripts/get-local.sh
+/bin/sh
+scripts/get-local.sh
+vim scripts/get-local.sh
+scripts/get-local.sh
+esc
+3c
+sc
+sshd -4
+esc
+sc
+sshd
+zle -L
+zle -l
+cd Documents
+echo "
+echo """
+vim bread_.zprofile
+vim bread_.zprofile ~/.zprofile
+ls .config/zsh
+mkdir .config/zsh
+mkdir ~/.config/zsh
+cs
+cd
+mv .zshrc ~/.config/zsh
+fg
+mkdir $XDG_CONFIG_HOME/scripts
+mv scripts .config
+ln -s .config/scripts scripts
+ln .config/zsh/.zshrc .zshrc
+ln .config/zsh/.zshrc .zshrc -s
+ls -a
+fg
+sc
+esc
+get-local.sh
+ls -a
+$LOCAL_IP
+vim scripts/get-local.sh
+get-local.sh
+$LOCAL_IP
+echo $LOCAL_IP
+vim scripts/get-local.sh
+getifaddr
+vim
+get-local.sh
+echo $LOCAL_IP
+echo $IP_ADDR
+vim
+get-local.sh
+vim
+get-local.sh
+echo $IP_ADDR
+echo $LOCAL_IP
+LOCAL_IP=$(ifconfig | awk '/inet /{print $2}' | tail -1)\
+echo $LOCAL_IP
+fc
+LOCAL_IP=$(ifconfig 2>/dev/null| awk '/inet /{print $2}' | tail -1)\
+echo $LOCAL_IP
+echo $LOCAL_IP
+LOCAL_IP=$(ifconfig 2>/dev/null| awk '/inet /{print $2}' | tail -1)\
+echo $LOCAL_IP
+fc
+LOCAL_IP=$(ifconfig 2>/dev/null| awk '/inet /{print $2}' | tail -1)\
+echo $LOCAL_IP
+get-local.sh
+esc
+exe
+echo $LOCAL_IP
+get-local.sh
+echo $LOCAL_IP
+zsh -c scripts/get-local.sh
+echo $LOCAL_IP
+vim
+chmod +x scripts/get-local.zsh
+scripts/get-local.zsh
+echo $LOCAL_IP
+bindkey -L|grep ee
+bindkey -L|grep e
+bindkey -L|grep E
+v
+v
+v
+v
+v .
+v
+v .
+v .
+ln -s storage/git git
+v .
+rm -9223372036854775808
+rm \-9223372036854775808
+rm ./-9223372036854775808
+ex#c sh -c ./pbge
+sh
+sh
+zsh
+q
+#mv .gnupg/* $XDG_DATA_HOME
+mkdir $XDG_DATA_HOME/gnupg
+mv .gnupg/* $XDG_DATA_HOME/gnupg
+./pbge
+fish
+./pbge
+q
+esc
+sc
+esc
+cat
+esc
+esc
+esc
+sc
+esc
+sc
+esc
+q
+q
+exec sh
+pkg upgrde
+v
+v
+v
+v
+v
+>
+v
+ln -s Documents docs
+vim docs/tmp-gruvbox.lua
+cat vim docs/tmp-gruvbox.lua
+fg
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+pkg i stylua
+v
+fg
+v
+v
+v
+mkdir docs/filing
+v
+fish
+sh
+the_rock
+bible acts
+bible acts 3
+bible act3
+bible acts3
+bible ps48:1-2
+bible ps48:1-300
+cd docs
+mkdir notes
+cd docs
+cd notes
+ln -s ~/Documents/notes ~/notes
+mkdir bib
+mkdir bib/ps
+ln -s bib/ps Psalms
+cd Psalms
+bible ps48:1-300>Psalm\ 48
+v Psalm\ 48
+v
+vim .zshrc
+esc
+sc
+vsc
+esc
+v
+sc
+sc
+v
+esc
+esc
+v
+sc
+esc
+sc
+sc
+esc
+esc
+mv ~/.config/scripts .local/share/
+mv ~/.config/scripts ~/.local/share/
+zsc
+esc
+esc
+sc
+sshd
+pkill sshd
+echo $PATH
+vim ~/.zprofile
+mam dash
+mam dash
+sh
+q
+run-help echO
+echo $Path
+echo $PATH
+unlink ~/scripts
+ls -a W
+ls -a ~
+vim ~
+v ~
+tmux
+vim ~
+vim ~
+echo $PATH
+vim ~/.zprofile
+v ~
+v
+man tigervnc
+man xvnc
+man vnc
+man vncconfig
+v ~/.zprofile
+v ~/.zprofile
+man vncconfig
+man --help
+v ~/.zprofile
+v
+source .zprofile
+source ~/.zprofile
+man vncconfig
+v
+source ~/.zprofile
+man vncconfig
+which xvnc
+which vncserver
+apt info vncserver
+v
+esc
+\apt info vncserver
+\apt list --installed|grep vnc
+v
+./pbge
+v .zprofile
+v .
+fish
+./pbge
+source .zprofile
+./pbge
+v ~
+v pbge
+./pbge
+v .zprofile .bash_profile
+bash
+ls -la
+ls -a
+v .zprofile
+echo $UID
+locate 1026t
+locate 1026t
+locate 10265
+mkdir /data/data/com.termux/files/usr/var/run/user/10265
+mkdir /data/data/com.termux/files/usr/var/run/user/10265 -p
+fc
+mkdir /data/data/com.termux/files/usr/var/run/user/10265 -p
+mv .Xauthority /data/data/com.termux/files/usr/var/run/user/10265
+v .zprofile
+source .zprofile
+cd $XDG_RUNTIME_DIR
+mv .Xauthority Xauthority
+cd ../..
+chmod -R 0700 user
+cd
+ls -a
+ls -a|wc -l
+find ~|grep zcomp
+ls .zcompdump
+rm .zcompdump
+ls .shortcuts
+rm -r .shortcuts
+ls
+ls -l
+unlink notes
+ls
+v
+mv vimwiki Documents
+ls
+ls -a
+ls -a|wc -l
+fc
+find -maxdepth 1 -type f|wc -l
+\vim .vimrc
+mkdir .config/vim
+mv .viminfo .config/vim
+\vim
+mv .vimrc .config/vim/vimrc
+\vim
+ls .vim
+mv .vim/* .config/vim
+cd .config/vim
+ls
+mkdir vim
+rm -d vim
+rm -d ~/.vim
+ls -a ~/.vim
+rm -d ~/.vim -rf
+\vim
+vim vimrc
+\vim
+\vim vimrc
+\vim vimrc
+ls -a ~
+mkdir -p "$XDG_STATE_HOME"/bash
+mkdir $HOME/.local/state
+vim ~/.bash_profile
+cd 
+vim .bash_profile
+mv .bash_history .local/state/
+mkdir -p "$XDG_STATE_HOME"/bash
+sc
+mkdir -p "$XDG_STATE_HOME"/bash
+vim .zprofile
+mkdir -p "$XDG_STATE_HOME/bash"
+vim .zprofile
+export XDG_STATE_HOME="$HOME/.local/state"
+mkdir -p "$XDG_STATE_HOME/bash"
+mv .local/state/.bash_history $XDG_STATE_HOME/bash/history
+vim .bash_profile
+bash
+ls
+ls -a
+vim .bash_profile
+bash
+exec bash
+mv .bash_profile .profile
+bash
+exec bash
+source .config/zsh/.zshrc
+vim .zprofile
+ln -s .config/zsh/zshrc .config/zsh/.zshrc
+mv .config/zsh/.zshrc ~/.config/zsh/zshrc
+ln -s .config/zsh/zshrc .config/zsh/.zshrc
+q
+vim .zprofile
+ls $ZDOTDIR
+cd ls $ZDOTDIR
+cd $ZDOTDIR
+ln -s .zshrc zshrc
+ls -a
+cat .zshrc
+ls -l
+ls -la
+source zshrc
+vim ~/.zprofile
+zsh
+vim ~/.zprofile
+nano source $ZDOTDIR/zsh/zshrc
+nano $ZDOTDIR/zsh/zshrc
+vim ~/.zprofile
+exe
+tail zshrc
+tail ~/.zprofile
+tail ~/.zprofile -n 23
+source $ZDOTDIR/zshrc
+q
+source $ZDOTDIR/zshrc
+tail ~/.zprofile -n 23
+tail $ZDOTDIR/zshrc
+vim ~/.zprofile
+sc
+vim ~/.zprofile
+vim ~/.zprofile
+ls -la $ZDOTDIR
+cd $ZDOTDIR
+ls
+unlink .zshrc
+ln -s zshrc .zshrc
+#xe
+exe
+q
+exec bash
+cd git
+cd IT-dotfiles
+la
+ls
+vim apps/polybar/config.ini
+v
+./pbge
+v
+v
+v
+ls
+cd Documents
+ls
+mkdir Videos
+cd Videos
+yt-dlp https://m.youtube.com/watch?v=mTa2d3OLXhg
+yt-dlp 'https://m.youtube.com/watch?v=mTa2d3OLXhg'
+bg
+fg
+v
+v
+./pbge
+v
+cd Documents/
+ls
+tree
+tree|grep bible
+tree|grep bible -B 6
+tree|grep psalm -B 6
+tree|grep Ps -B 6
+ln -s notes/bib bible
+cd bible
+cd ps
+vim Psalm\ 48_tw44.txt
+dmenu
+pkg i xdotool -y
+xdotool type "hey"
+q
+.\pbge
+./pbge
+ls
+cp passfile.txt .local/share/pass
+./pbge
+fish
+./pbge
+host -t cname www.smg.asn.au
+v
+v
+v
+v
+v
+v
+fg
+v
+fg
+v
+fg
+v
+fg
+v
+fg
+v
+fg
+fg
+v
+fg
+v
+fg
+v
+fg
+v
+fg
+v
+fg
+v
+v
+pkg upgrade
+pkg install curl neovim readline
+pkg install curl neovim readline tree-sitter tree-sitter-vim
+v
+ping x.com
+pkg update
+pkg upgrade
+host -t cname www.smg.asn.au
+q
+v
+find ~|grep ".py"
+find git|grep ".py"
+cd docs
+ls
+ls filing
+mv note* filing
+ls|grep txt
+mv *.txt Notes
+mv Notes/markverses.txt .
+ls|grep md
+ls git
+fish
+cd /data/data/com.termux/files/home/.local/share/scripts/practice/
+ls
+v newpay.py
+v
+v $XDG_CONFIG_HOME/nvim
+cd $XDG_DATA_HOME/nvim
+ls
+v lazy
+v lazy
+v lazy
+v lazy/comfy-line-numbers.nvim
+v lazy/telescope.nvim/doc/telescope.txt
+host smg.asn.au
+host www.smg.asn.au
+host -t cname www.smg.asn.au
+host -t cname smg.asn.au
+host -t cname www.smg.asn.au
+sshd -4
+clear
+ssh root@localhost
+exit
+ln -s storage/sshd_etc-ssh storage/sqrt/usr/etc/ssh
+fc
+ln -s storage/sqrt/usr/etc/ssh storage/sshd_etc-ssh  
+cd storage
+ls
+cd sshd_etc-ssh
+ln -s sqrt/usr/etc/ssh sshd_etc-ssh  
+ls sshd_etc-ssh
+ls sshd_etc-ssh -l
+ln -s sqrt/usr/etc/ssh sshd_etc-ssh  
+unlink sshd_etc-ssh
+ln -s sqrt/usr/etc/ssh sshd_etc-ssh  
+ls
+cd sshd_etc-ssh
+ls
+clear
+ls
+vim ssh_config
+vim sshd_config
+sshd -4
+ssh root@localhost
+exit
+vim sshd_config
+sshd -4
+ps -ax|grep ssh
+ssh localhost -u root
+ssh root@localhost
+exit
+exit
+exit
+q
+sshd -r
+sshd -4
+v
+v storage/sqrt
+sshd -4
+man ssh
+man sshd_config
+v
+sshd -4
+ssh root@localhost
+exit
+exit
+lf
+v
+exit
+./pbge
+./pbge
+cd git
+git clone 'https://github.com/csev/py4e/tree/master/'
+git clone 'https://github.com/csev/py4e'
+python
+man host
+host smg.asn.au
+host 172.66.2.13
+host 162.159.142.17
+man host
+host 162.159.142.17 8.8.8.8
+man host
+host -t any smg.asn.au
+man host
+host -t all smg.asn.au
+host -a smg.asn.au
+host -a smg.asn.au
+host -a www.smg.asn.au
+man host
+host -a www.smg.asn.au
+host -v -t all smg.asn.au
+host -v smg.asn.au
+host -T smg.asn.au
+host -T www.smg.asn.au
+man smg.net.au
+man host
+man named
+v
+ping 8.8.8.8
+ping 8.8.8.8
+ping 8.8.8.8
+ping 8.8.8.8
+man ssh
+ssh -F tmp terminal.shop
+ls
+touch tmpdel
+ssh -F tmpdel terminal.shop
+ssh -F tmpdel 192.168.1.1
+ssh -F tmpdel 192.168.1.1 -l pbtadmin
+cal
+pkg search xlibre
+pkg upgrade
+\vim
+v
+v vimwiki/diary/*
+cd docs
+cd vimwiki
+ls
+v diary/*
+q
+v
+\vim
+>
+v
+v
+cd docs
+mkdir workingDir
+workingDir
+ln -s $XDG_DATA_HOME/scripts/ script
+ls script
+v
+ln -s script/get-local.sh sh
+v
+yt-dlp https://m.youtube.com/watch?v=rT-fbLFOCy0
+fc
+yt-dlp -f 'https://m.youtube.com/watch?v=rT-fbLFOCy0'
+yt-dlp -f 'https://m.youtube.com/watch?v=rT-fbLFOCy0'
+yt-dlp --list-formats 'https://m.youtube.com/watch?v=rT-fbLFOCy0'
+#yt-dlp --split-chapters 'https://m.youtube.com/watch?v=rT-fbLFOCy0'
+man yt-dlp
+yt-dlp -F 269 --split-chapters 'https://m.youtube.com/watch?v=rT-fbLFOCy0'
+yt-dlp -f 269 --split-chapters 'https://m.youtube.com/watch?v=rT-fbLFOCy0'
+ls
+yt-dlp -f 269 --split-chapters 'https://m.youtube.com/watch?v=rT-fbLFOCy0'
+ls
+mkdir vids
+mv *.mp4 vids
+ls
+rm tmpdel
+vim .zprofile
+exec zsh
+zprof
+man zshall
+esc
+ex#c zsh
+v .zprofile
+zmodload zprof
+zmodload zsh/zprof
+zprof
+vim .zprofile
+zsh
+zsh
+chsh
+chsh
+esc
+fc
+v ~/git/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh ~/git/zsh-history-substring-search/zsh-history-substring-search.plugin.zsh > /dev/null
+fc
+v ~/git/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh ~/git/zsh-history-substring-search/zsh-history-substring-search.plugin.zsh
+v ~/git/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh  ~/git/zsh-history-substring-search/zsh-history-substring-search.plugin.zsh
+v
+sc
+sc
+sc
+sc
+q
+gffggbg fgvg 
+bash
+v
+ffv ffg
+bindkey -L |grep -i r
+bindkey -L |grep -i "]r"
+bindkey -L |grep -i "[r"
+bindkey -L |grep -i "\[r"
+bindkey -L |grep -i "\\er"
+bindkey -L |grep -i "\^r"
+bindkey -L |grep -i "A-"
+bindkey -L |grep -i "M-"
+sshd -4
+zsh
+exit
+vim .zprofile
+vim .zshr
+esc
+fg
+sc
+esc
+esc
+sc
+esc
+sc
+esc
+sc
+v
+esc
+esc
+sc
+esc
+sc
+esc
+sc
+s 
+sc
+esc
+sc
+esc
+sc
+esc
+sc
+v
+esc
+exe
+clear
+q
+mkdir docs/dotfiles-mob
+ln -s docs/dotfiles dotfiles-mob
+ln -s docs/dotfiles docs/dotfiles-mob
+mkdir docs/dotfiles
+ls -l dotfiles-mob
+ls
+cd dotfiles-mob
+ln -s $XDG_CONFIG_HOME/nvim/init.lua init.lua\
+ln -s $XDG_CONFIG_HOME/vim/vimrc vimrc\
+ln -s $XDG_CONFIG_HOME/fish/fish.config fish.config\
+ln -s $XDG_CONFIG_HOME/zsh/zshrc zshrc\
+ln -s $XDG_CACHE_HOME/zsh/history history\
+ln -s $HOME/.bash_history _bash_history\
+ln -s $HOME/.bash_history _bash_profile\
+ln -s $HOME/.bash_history _bashrc
+ls -a
+touch $(date).txt
+ls
+touch $('date').txt
+ls
+$'DATE').txt
+fc
+$'DATE').txt
+echo $(date) > $('date').txt
+ls
+cat *
+cat *|head
+ls
+v .
+fc -l
+fc 1633
+echo $(date) > $('date').txt
+ls
+touch datescript.sh
+vim datescript.sh
+vim .
+v
+clear
+ls ~
+q
+sshd -4
